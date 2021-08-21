@@ -9,11 +9,15 @@ export const config = {
     "aws_profile": "udacitylab",
     "aws_media_bucket": "udagram-eme-dev"
   },
+  
   "prod": {
     "username": "",
     "password": "",
     "database": "udagramemeke",
     "host": "",
     "dialect": "postgres"
+  },
+  "jwt":{
+    "secret":"helloworld"
   }
 }
